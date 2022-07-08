@@ -11,5 +11,11 @@ export class ViewstudentsComponent implements OnInit {
 
   ngOnInit(): void {
   }
-name="ganu"
+data=[
+  {"name":"ganu","age":19,"photo":"https://d2gg9evh47fn9z.cloudfront.net/800px_COLOURBOX37232442.jpg"},
+  {"name":"sera","age":21,"photo":"https://d2gg9evh47fn9z.cloudfront.net/800px_COLOURBOX37232442.jpg"},
+  {"name":"sam","age":17,"photo":"https://d2gg9evh47fn9z.cloudfront.net/800px_COLOURBOX37232442.jpg"},
+  {"name":"sonu","age":22,"photo":"https://d2gg9evh47fn9z.cloudfront.net/800px_COLOURBOX37232442.jpg"},
+  {"name":"shan","age":16,"photo":"https://d2gg9evh47fn9z.cloudfront.net/800px_COLOURBOX37232442.jpg"}
+]
 }
